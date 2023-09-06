@@ -30,7 +30,7 @@ archives:
       format: zip
 brews:
   - name: help
-    homepage: "https://github.com/heechankim/helpcli"
+    homepage: "https://github.com/heechankim/homebrew-helpcli"
     tap:
       owner: heechankim
       name: homebrew-helpcli
