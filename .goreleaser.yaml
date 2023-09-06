@@ -33,7 +33,7 @@ brews:
     homepage: "https://github.com/heechankim/helpcli"
     tap:
       owner: heechankim
-      name: helpcli
+      name: homebrew-helpcli
 checksum:
   name_template: 'checksums.txt'
 snapshot:
