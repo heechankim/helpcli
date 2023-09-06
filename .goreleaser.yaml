@@ -30,10 +30,9 @@ archives:
       format: zip
 brews:
   - name: help
-    homepage: "https://github.com/heechankim/homebrew-helpcli"
-    tap:
-      owner: heechankim
-      name: homebrew-helpcli
+    folder: Formula
+    homepage: https://github.com/heechankim/homebrew-helpcli
+    description: Release Test
 checksum:
   name_template: 'checksums.txt'
 snapshot:
