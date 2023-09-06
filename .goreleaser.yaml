@@ -33,11 +33,10 @@ brews:
     folder: Formula
     homepage: https://github.com/heechankim/homebrew-helpcli
     description: Release Test
-    repository:
+    tap:
       owner: heechankim
-      name: helpcli
-      branch: main
-checksum:
+      name: homebrew-helpcli
+checgiksum:
   name_template: 'checksums.txt'
 snapshot:
   name_template: "{{ incpatch .Version }}-next"
