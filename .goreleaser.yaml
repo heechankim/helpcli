@@ -36,7 +36,7 @@ brews:
     tap:
       owner: heechankim
       name: homebrew-helpcli
-checgiksum:
+checksum:
   name_template: 'checksums.txt'
 snapshot:
   name_template: "{{ incpatch .Version }}-next"
