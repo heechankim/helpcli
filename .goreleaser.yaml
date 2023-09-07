@@ -39,13 +39,15 @@ changelog:
       - '^docs:'
       - '^test:'
 brews:
-  - name: help
+  - name: helpcli
     homepage: https://github.com/heechankim/homebrew-helpcli
-    description: Release Test
+    description: The helpcli tool helps developers work efficiently in the terminal.
     folder: Formula
     tap:
       owner: heechankim
       name: homebrew-helpcli
+    install: |
+      bin.install "help"
 
 # The lines beneath this are called `modelines`. See `:help modeline`
 # Feel free to remove those if you don't want/use them.
