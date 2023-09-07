@@ -8,7 +8,8 @@ before:
     - go generate ./...
 builds:
   - id: helpcli
-    binary: helpcli
+    binary: 'help'
+    # Binary file name -> brews.install.bin.install: 'help'
     env:
       - CGO_ENABLED=0
     goos:
@@ -42,12 +43,12 @@ changelog:
       - '^test:'
 brews:
   - name: helpcli
-    homepage: https://github.com/heechankim/homebrew-helpcli
-    description: The helpcli tool helps developers work efficiently in the terminal.
+    homepage: 'https://github.com/heechankim/homebrew-helpcli'
+    description: 'The helpcli tool helps developers work efficiently in the terminal.'
     folder: Formula
     tap:
-      owner: heechankim
-      name: homebrew-helpcli
+      owner: 'heechankim'
+      name: 'homebrew-helpcli'
     install: |
       bin.install "help"
 
