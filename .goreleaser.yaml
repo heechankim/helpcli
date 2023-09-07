@@ -28,14 +28,6 @@ archives:
     format_overrides:
     - goos: windows
       format: zip
-brews:
-  - name: help
-    folder: Formula
-    homepage: https://github.com/heechankim/homebrew-helpcli
-    description: Release Test
-    tap:
-      owner: heechankim
-      name: homebrew-helpcli
 checksum:
   name_template: 'checksums.txt'
 snapshot:
@@ -46,6 +38,14 @@ changelog:
     exclude:
       - '^docs:'
       - '^test:'
+brews:
+  - name: help
+    homepage: https://github.com/heechankim/homebrew-helpcli
+    description: Release Test
+    folder: Formula
+    tap:
+      owner: heechankim
+      name: homebrew-helpcli
 
 # The lines beneath this are called `modelines`. See `:help modeline`
 # Feel free to remove those if you don't want/use them.
