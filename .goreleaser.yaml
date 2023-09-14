@@ -42,27 +42,19 @@ changelog:
       - '^docs:'
       - '^test:'
 brews:
-  - name: helpcli
-    homepage: 'https://github.com/heechankim/helpcli'
+  - name: helpcli@{{ .Major }}.{{ .Minor }}.{{ .Patch }}
     license: 'mit'
-    description: 'The helpcli tool helps developers work efficiently in the terminal.'
-    folder: Formula
     repository:
       owner: 'heechankim'
       name: 'homebrew-helpcli'
-    install: |
-      bin.install "help"
-winget:
-  - name: helpcli
-    homepage: 'https://github.com/heechankim/helpcli'
-    license: 'mit'
-    short_description: 'The helpcli tool helps developers work efficiently in the terminal.'
-    publisher: 'heechankim'
-    package_identifier: 'heechankim.helpcli'
+      branch: bump-brew
+    folder: Formula
     url_template: "https://github.com/heechankim/helpcli/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
-    repository:
-      owner: 'heechankim'
-      name: 'winget-pkgs-helpcli'
+    homepage: 'https://github.com/heechankim/helpcli'
+    description: 'The helpcli tool helps developers work efficiently in the terminal.'
+    skip_upload: auto
+    install: |-
+      bin.install "help"
 
 
 # The lines beneath this are called `modelines`. See `:help modeline`
