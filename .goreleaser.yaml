@@ -47,7 +47,7 @@ brews:
     repository:
       owner: 'heechankim'
       name: 'homebrew-tap'
-      branch: by-goreleaser
+      branch: main
     folder: Formula
     url_template: "https://github.com/heechankim/helpcli/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
     homepage: 'https://github.com/heechankim/helpcli'
