@@ -46,8 +46,8 @@ brews:
     license: 'mit'
     repository:
       owner: 'heechankim'
-      name: 'homebrew-helpcli'
-      branch: bump-brew
+      name: 'homebrew-tap'
+      branch: by-goreleaser
     folder: Formula
     url_template: "https://github.com/heechankim/helpcli/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
     homepage: 'https://github.com/heechankim/helpcli'
